@@ -21,4 +21,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+    <repository>
+         <id>my-custom-repo</id>
+         <url>http://65.0.110.147:8081/repository/my-custom-repo</url>
+    </repository>
+    <snapshotRepository>
+         <id>maven-snapshots</id>
+         <url>http://65.0.110.147:8081/repository/maven-snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
