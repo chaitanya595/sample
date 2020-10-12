@@ -33,15 +33,4 @@
     </snapshotRepository>
 </distributionManagement>
   
-  <build>
-    <extensions>
-      <!-- Enabling the use of FTP -->
-      <extension>
-        <groupId>com.github</groupId>
-         <artifactId>egitdemo</artifactId>
-         <version>1.0-SNAPSHOT</version>
-      </extension>
-    </extensions>
-  </build>
-  
 </project>
