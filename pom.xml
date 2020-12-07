@@ -11,13 +11,10 @@
   <properties>
    <maven.compiler.source>6</maven.compiler.source>
    <maven.compiler.target>1.6</maven.compiler.target>
+    <failOnMissingWebXml>false</failOnMissingWebXml> 
  </properties>
   
-  <properties>
-    <failOnMissingWebXml>false</failOnMissingWebXml>   
-  </properties>
-  
-  <dependencies>
+   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
