@@ -30,9 +30,7 @@
                        </execution>
                     </executions>
            </plugin> 
-        </plugins>
-  
-        <plugins>
+        
             <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
@@ -41,9 +39,7 @@
                         <skip>true</skip>
                     </configuration>
                  </plugin>
-        </plugins>
- 
-        <plugins>
+       
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
