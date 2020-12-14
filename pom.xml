@@ -46,8 +46,8 @@
   
   <distributionManagement>
     <repository>
-         <id>my-custom-repo</id>
-         <url>http://65.0.110.147:8081/repository/my-custom-repo/</url>
+         <id>maven-releases</id>
+         <url>http://13.233.146.93:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
          <id>maven-snapshots</id>
